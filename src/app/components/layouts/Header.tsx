@@ -28,7 +28,7 @@ export function Header() {
           width={254}
           className="h-[24px] w-[254px] lg:h-[32px] lg:w-[338px]"
           height={24}
-          src="/logo.png"
+          src="/retrocraft.png"
           alt="retro-game"
           unoptimized
         />
