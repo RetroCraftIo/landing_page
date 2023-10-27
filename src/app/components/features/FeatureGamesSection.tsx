@@ -14,7 +14,7 @@ export const FeatureGamesSections: FC<HTMLAttributes<HTMLElement>> = ({
   return (
     <section
       className={mergeClasses(
-        `flex flex-col items-center gap-[16px] bg-[url('${process.env.NEXT_PUBLIC_ROOT_PATH}/mb-feature-games-bg.png')] p-[64px_16px] lg:flex-row lg:p-[108px_70px_152px_70px]`,
+        `bg-mb-feature-games flex flex-col items-center gap-[16px] p-[64px_16px] lg:flex-row lg:p-[108px_70px_152px_70px]`,
         className
       )}
       {...props}

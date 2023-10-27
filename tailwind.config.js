@@ -23,6 +23,23 @@ module.exports = {
       },
       fontFamily: {
         sans: ['var(--font-noto-sans)']
+      },
+      backgroundImage: {
+        'welcome-banner': `url('${
+          process.env.NEXT_PUBLIC_ROOT_PATH ?? ''
+        }/welcome-banner.png')`,
+        'mb-feature-games': `url('${
+          process.env.NEXT_PUBLIC_ROOT_PATH ?? ''
+        }/mb-feature-games-bg.png')`,
+        'mb-join-the-world': `url('${
+          process.env.NEXT_PUBLIC_ROOT_PATH ?? ''
+        }/mb-join-the-world.png')`,
+        'join-the-world': `url('${
+          process.env.NEXT_PUBLIC_ROOT_PATH ?? ''
+        }/join-the-world.png')`,
+        'mb-welcome-banner': `url('${
+          process.env.NEXT_PUBLIC_ROOT_PATH ?? ''
+        }/mb-welcome-banner.png')`
       }
     }
   },

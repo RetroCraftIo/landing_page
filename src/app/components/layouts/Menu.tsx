@@ -36,7 +36,7 @@ export const Menu: FC<MenuProps> = ({ isOpen }) => {
     >
       {PREVIOUS_OPTIONS.map((menu, i) => {
         const hasChildren = menu?.children?.length > 0;
-        const Element: any = hasChildren ? 'Button' : Link;
+        const Element: any = hasChildren ? 'button' : Link;
 
         return (
           <li

@@ -12,7 +12,7 @@ export const JoinTheWorldSection: FC<HTMLAttributes<HTMLElement>> = ({
   return (
     <section
       className={mergeClasses(
-        `h-[224px] bg-[url('${process.env.NEXT_PUBLIC_ROOT_PATH}/mb-join-the-world.png')] bg-cover bg-center p-[38px_16px] text-center lg:h-[418px] lg:bg-[url('${process.env.NEXT_PUBLIC_ROOT_PATH}/join-the-world.png')] lg:pt-[121px]`,
+        `h-[224px] bg-mb-join-the-world bg-cover bg-center p-[38px_16px] text-center lg:h-[418px] lg:bg-join-the-world lg:pt-[121px]`,
         className
       )}
       {...props}

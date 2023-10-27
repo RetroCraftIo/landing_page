@@ -12,7 +12,7 @@ export const WelcomeBanner: FC<HTMLAttributes<HTMLElement>> = ({
   return (
     <section
       className={mergeClasses(
-        `h-[211px] bg-[url('${process.env.NEXT_PUBLIC_ROOT_PATH}/mb-welcome-banner.png')] bg-cover bg-right bg-no-repeat p-[16px] lg:h-[calc(100vh_-_97px)] lg:bg-[url('${process.env.NEXT_PUBLIC_ROOT_PATH}/welcome-banner.png')] lg:p-[156px_160px]`,
+        `h-[211px] bg-mb-welcome-banner bg-cover bg-right bg-no-repeat p-[16px] lg:h-[calc(100vh_-_97px)] lg:bg-welcome-banner lg:p-[156px_160px]`,
         className
       )}
       {...props}
