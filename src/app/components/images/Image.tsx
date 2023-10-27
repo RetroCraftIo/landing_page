@@ -1,10 +1,19 @@
-import ImageNext, { ImageProps } from 'next/image';
-import { FC } from 'react';
+import { DetailedHTMLProps, FC, ImgHTMLAttributes } from 'react';
 
-export const Image: FC<ImageProps> = ({ src, ...props }) => {
+interface ImageProps
+  extends DetailedHTMLProps<
+    ImgHTMLAttributes<HTMLImageElement>,
+    HTMLImageElement
+  > {
+  unoptimized?: boolean;
+}
+
+export const Image: FC<ImageProps> = ({ src, alt, unoptimized, ...props }) => {
+  console.log(unoptimized);
   return (
-    <ImageNext
+    <img
       src={(process.env?.NEXT_PUBLIC_ROOT_PATH ?? '') + src}
+      alt={alt}
       {...props}
     />
   );
