@@ -16,11 +16,17 @@ export const Footer = () => {
     <footer>
       <div className="flex flex-col gap-[24px] bg-bg2 p-[40px_16px] lg:flex-row lg:justify-between lg:p-[28px_135px]">
         <picture className="lg:p-[16px]">
-          <source media="(min-width: 1024px)" srcSet="/white-retrocraft.png" />
+          <source
+            media="(min-width: 1024px)"
+            srcSet={
+              (process?.env?.NEXT_PUBLIC_ROOT_PATH ?? '') +
+              '/white-retrocraft.png'
+            }
+          />
           <Image
             width={254}
             height={24}
-            src="/mb-logo.png"
+            src="/retrocraft.png"
             alt="retro-game"
             className="h-[24px] w-[254px]"
             unoptimized
