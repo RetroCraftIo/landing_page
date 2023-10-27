@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { FC, HTMLAttributes } from 'react';
 
 import { ShortRightArrowIcon } from '@/app/assets/icons/ShortRightArrow';
@@ -6,6 +5,7 @@ import { FEATURE_GAMES } from '@/app/constant';
 import { mergeClasses } from '@/app/utils';
 
 import { Button } from '../buttons/Button';
+import { Image } from '../images/Image';
 
 export const FeatureGamesSections: FC<HTMLAttributes<HTMLElement>> = ({
   className,

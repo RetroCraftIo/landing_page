@@ -1,12 +1,12 @@
 'use client';
 
-import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
 import { CloseIcon } from '@/app/assets/icons/Close';
 import { HamburgerIcon } from '@/app/assets/icons/Hamburger';
 
 import { Button } from '../buttons/Button';
+import { Image } from '../images/Image';
 
 import { Menu } from './Menu';
 

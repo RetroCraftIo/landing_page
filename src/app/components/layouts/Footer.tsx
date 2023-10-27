@@ -1,8 +1,9 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
 import { CCircleIcon } from '@/app/assets/icons/CCircle';
 import { FOOTER_MENU_OPTIONS } from '@/app/constant';
+
+import { Image } from '../images/Image';
 
 export const Footer = () => {
   const PREVIOUS_OPTIONS = FOOTER_MENU_OPTIONS.slice(
