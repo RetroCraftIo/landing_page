@@ -27,7 +27,7 @@ export const FeatureGamesSections: FC<HTMLAttributes<HTMLElement>> = ({
         alt="feature-games"
         className="w-[280px] lg:w-[425px] lg:shrink-0"
       />
-      <div className="w-full lg:overflow-x-auto lg:overflow-y-clip">
+      <div className="w-full p-[4px] lg:overflow-x-auto lg:overflow-y-clip">
         <h3 className="mb-[18px] text-[18px] font-bold leading-[25px] lg:mb-[40px] lg:text-[36px] lg:leading-[49px]">
           FEATURED GAMES
         </h3>
